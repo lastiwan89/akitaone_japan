@@ -32,7 +32,7 @@ const Navbar = () => {
         />
         <h1 className="font-black text-white uppercase">AkitaOne</h1>
       </Link>
-      <NavigationMenu className="hidden md:flex">
+      <NavigationMenu className="hidden lg:flex">
         <NavigationMenuList className="flex items-center justify-center gap-6">
           {NAVLINKS.map((items) => (
             <NavigationMenuItem className="text-white" key={items.id}>

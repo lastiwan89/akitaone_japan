@@ -14,7 +14,7 @@ import { cn } from '@/lib/utils'
 const Sidebar = () => {
   const router = useRouter()
   return (
-    <div aria-label="toggle navigation" className="md:hidden">
+    <aside aria-label="toggle navigation" className="lg:hidden">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button size="icon">
@@ -23,7 +23,7 @@ const Sidebar = () => {
         </DropdownMenuTrigger>
         <DropdownMenuContent
           className={cn(
-            'flex h-screen w-screen flex-col items-center gap-4 bg-linear-60 from-gray-950 to-cyan-500 font-semibold text-white',
+            'flex h-screen w-56 flex-col items-center gap-4 bg-linear-60 from-gray-950 to-cyan-500 font-semibold text-white',
           )}
         >
           {NAVLINKS.map((items) => (
@@ -36,7 +36,7 @@ const Sidebar = () => {
           ))}
         </DropdownMenuContent>
       </DropdownMenu>
-    </div>
+    </aside>
   )
 }
 
