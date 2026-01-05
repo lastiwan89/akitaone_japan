@@ -1,68 +1,67 @@
 type Links = {
-  id: number;
-  title: string;
-  href: string;
+  id: number
+  title: string
+  href: string
 }
 
 type Person = {
-  id: number;
-  src: string;
-  occupation: string;
+  id: number
+  src: string
+  occupation: string
 }
 
 export const NAVLINKS: Links[] = [
   {
     id: 1,
     title: 'Home',
-    href: '/'
+    href: '/',
   },
 
   {
     id: 2,
-    title: 'Explore Location',
-    href: '/location'
+    title: 'Destination',
+    href: '/destination',
   },
 
   {
     id: 3,
     title: 'Work',
-    href: '/work'
+    href: '/work',
   },
-
 
   {
     id: 4,
     title: 'Blog',
-    href: '/blog'
+    href: '/blog',
   },
 
   {
     id: 5,
     title: 'About Us',
-    href: '/about'
+    href: '/about',
   },
 
   {
     id: 6,
     title: 'Contact',
-    href: '/contact'
-  }
-];
+    href: '/contact',
+  },
+]
 
 export const Director: Person[] = [
   {
-    id:1,
-    src:'/DANIEL-CEO-AKITAONEJAPAN.jpg',
-    occupation: 'CEO'
+    id: 1,
+    src: '/DANIEL-CEO-AKITAONEJAPAN.jpg',
+    occupation: 'CEO',
   },
   {
     id: 2,
     src: '/TIKA-DIRECTOR-FINANCIAL-AKITAONEJAPAN.jpg',
-    occupation: 'DIRECTOR FINANCIAL'
+    occupation: 'DIRECTOR FINANCIAL',
   },
   {
     id: 3,
     src: '/NAKAJIMA-HATSUO-DIRECTOR-OPERATIONAL-AKITAONEJAPAN.jpg',
-    occupation: 'DIRECTOR OPERATIONAL'
-  }
+    occupation: 'DIRECTOR OPERATIONAL',
+  },
 ]

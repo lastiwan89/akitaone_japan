@@ -4,7 +4,7 @@ import Sponsors from '@/components/page-section/sponsor'
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center bg-linear-60 from-black/90 to-sky-800/70 px-8">
+    <div className="flex flex-col items-center bg-linear-to-r from-gray-900 via-cyan-950 to-sky-950 p-8">
       {/* Hero section */}
       <Hero />
       {/* Sponsors section */}
